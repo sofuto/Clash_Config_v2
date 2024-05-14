@@ -1,14 +1,13 @@
 payload:
-
-  - "+.shopee.co.id"
-  - "+.shopeemobile.com"
-  - "+.shopee.sg"
-  - "+.lazada.co.id"
-  - "+.bukalapak.com"
-  - "+.blibli.com"
-  - "+.tokopedia.com"
-  - "+.tokopedia.net"
-  - "+.amazon.com"
-  - "+.alibaba.com"
-  - "+.ebay.com"
-  - "+.shopify.com"
+  - DOMAIN-SUFFIX,shopee.co.id
+  - DOMAIN-SUFFIX,shopeemobile.com
+  - DOMAIN-SUFFIX,shopee.sg
+  - DOMAIN-SUFFIX,lazada.co.id
+  - DOMAIN-SUFFIX,bukalapak.com
+  - DOMAIN-SUFFIX,blibli.com
+  - DOMAIN-SUFFIX,tokopedia.com
+  - DOMAIN-SUFFIX,tokopedia.net
+  - DOMAIN-SUFFIX,amazon.com
+  - DOMAIN-SUFFIX,alibaba.com
+  - DOMAIN-SUFFIX,ebay.com
+  - DOMAIN-SUFFIX,shopify.com
