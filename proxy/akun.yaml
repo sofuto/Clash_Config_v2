@@ -1,6 +1,4 @@
 proxies:
-#=//=# Telegram > t.me/lunatech_store #=//=#
-#=//=# Telegrum > t.me/lunatech_channel #=//=#
 
 - name: IDN
   server: herza2.lunatech.my.id
