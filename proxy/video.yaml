@@ -1,12 +1,12 @@
 bug:
-  - &xcp_1 quiz.staging.vidio.com
-  - &xcp_2 img.email3.vidio.com
-  - &xcp_3 quiz.vidio.com
-  - &xcp_4 quiz.int.vidio.com
+  - &video_1 quiz.staging.vidio.com
+  - &video_2 img.email3.vidio.com
+  - &video_3 quiz.vidio.com
+  - &video_4 quiz.int.vidio.com
 
 proxies:
-  - name: "[VMess] paikozu xcp_1"
-    server: *xcp_1
+  - name: "[VMess] paikozu video_1"
+    server: *video_1
     port: 80
     type: vmess
     uuid: a32199b1-9237-4ca5-ab6d-63dd0942cbde
@@ -20,8 +20,8 @@ proxies:
       headers:
         Host: vvipyogi.sgpremium.my.id
     udp: true
-  - name: "[VMess] paikozu xcp_2"
-    server: *xcp_2
+  - name: "[VMess] paikozu video_2"
+    server: *video_2
     port: 80
     type: vmess
     uuid: a32199b1-9237-4ca5-ab6d-63dd0942cbde
@@ -35,8 +35,8 @@ proxies:
       headers:
         Host: vvipyogi.sgpremium.my.id
     udp: true
-  - name: "[VMess] paikozu xcp_3"
-    server: *xcp_3
+  - name: "[VMess] paikozu video_3"
+    server: *video_3
     port: 80
     type: vmess
     uuid: a32199b1-9237-4ca5-ab6d-63dd0942cbde
@@ -50,8 +50,8 @@ proxies:
       headers:
         Host: vvipyogi.sgpremium.my.id
     udp: true
-  - name: "[VMess] paikozu xcp_4"
-    server: *xcp_4
+  - name: "[VMess] paikozu video_4"
+    server: *video_4
     port: 80
     type: vmess
     uuid: a32199b1-9237-4ca5-ab6d-63dd0942cbde
