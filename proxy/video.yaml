@@ -5,7 +5,7 @@ bug:
   - &video_4 quiz.int.vidio.com
 
 proxies:
-  - name: "[VMess] paikozu video_1"
+  - name: "[VMess]video_1"
     server: *video_1
     port: 80
     type: vmess
@@ -20,7 +20,7 @@ proxies:
       headers:
         Host: vvipyogi.sgpremium.my.id
     udp: true
-  - name: "[VMess] paikozu video_2"
+  - name: "[VMess]video_2"
     server: *video_2
     port: 80
     type: vmess
@@ -35,7 +35,7 @@ proxies:
       headers:
         Host: vvipyogi.sgpremium.my.id
     udp: true
-  - name: "[VMess] paikozu video_3"
+  - name: "[VMess]video_3"
     server: *video_3
     port: 80
     type: vmess
@@ -50,7 +50,7 @@ proxies:
       headers:
         Host: vvipyogi.sgpremium.my.id
     udp: true
-  - name: "[VMess] paikozu video_4"
+  - name: "[VMess]video_4"
     server: *video_4
     port: 80
     type: vmess
