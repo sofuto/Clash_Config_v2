@@ -1,0 +1,67 @@
+bug:
+  - &xcp_1 quiz.staging.vidio.com
+  - &xcp_2 img.email3.vidio.com
+  - &xcp_3 quiz.vidio.com
+  - &xcp_4 quiz.int.vidio.com
+
+proxies:
+  - name: "[VMess] paikozu xcp_1"
+    server: *xcp_1
+    port: 80
+    type: vmess
+    uuid: a32199b1-9237-4ca5-ab6d-63dd0942cbde
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: vvipyogi.sgpremium.my.id
+    udp: true
+  - name: "[VMess] paikozu xcp_2"
+    server: *xcp_2
+    port: 80
+    type: vmess
+    uuid: a32199b1-9237-4ca5-ab6d-63dd0942cbde
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: vvipyogi.sgpremium.my.id
+    udp: true
+  - name: "[VMess] paikozu xcp_3"
+    server: *xcp_3
+    port: 80
+    type: vmess
+    uuid: a32199b1-9237-4ca5-ab6d-63dd0942cbde
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: vvipyogi.sgpremium.my.id
+    udp: true
+  - name: "[VMess] paikozu xcp_4"
+    server: *xcp_4
+    port: 80
+    type: vmess
+    uuid: a32199b1-9237-4ca5-ab6d-63dd0942cbde
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: vvipyogi.sgpremium.my.id
+    udp: true
